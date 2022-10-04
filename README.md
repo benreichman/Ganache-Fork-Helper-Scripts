@@ -17,7 +17,9 @@
 ## Setting Up
 ### 1. Clone/Download the Repository + Move into the working directory
 `$ git clone https://github.com/benreichman/Ganache-Fork-Helper-Scripts.git`
+
 <br />
+
 `$ cd Ganache-Fork-Helpers/`
 
 ### 2. Install Dependencies:
@@ -32,7 +34,7 @@ ganache-cli -f wss://eth-mainnet.alchemyapi.io/v2/<Your-App-Key> -m <Your-Mnemon
 Replace Your-App-Key with your Alchemy Project ID located in the settings of your project. Replace Your-Mnemonic-Phrase with your own mnemonic phrase. If you don't have a mnemonic phrase to include you can omit it. The address attached to the -u flag is the account that will be unlocked and used to execute scripts that require the UNLOCKED_ACCOUNT constant.
 
 
-### 5. To Run Scripts:
+### 4. To Run Scripts:
 `$ truffle exec ./scripts/<SCRIPT_NAME>.js`
 
 

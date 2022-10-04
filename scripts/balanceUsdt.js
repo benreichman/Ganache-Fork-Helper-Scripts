@@ -1,9 +1,6 @@
 const { ethers } = require('ethers')
 const provider = new ethers.providers.JsonRpcProvider("http://127.0.0.1:7545");
-
 const signer = provider.getSigner();
-// console.log(signer);
-
 const IERC20 = require('@openzeppelin/contracts/build/contracts/ERC20.json')
 
 const path = '0xdac17f958d2ee523a2206206994597c13d831ec7';
@@ -15,7 +12,6 @@ module.exports = async function (callback) {
     const balance = await usdt.balanceOf(signerArray[0])
     var balHere = parseInt(balance);
     console.log(ethers.utils.formatUnits(balHere, 6))
-
 
     callback();
 }
