@@ -17,6 +17,7 @@
 ## Setting Up
 ### 1. Clone/Download the Repository + Move into the working directory
 `$ git clone https://github.com/benreichman/Ganache-Fork-Helper-Scripts.git`
+<br />
 `$ cd Ganache-Fork-Helpers/`
 
 ### 2. Install Dependencies:
